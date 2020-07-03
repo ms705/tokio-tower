@@ -22,7 +22,7 @@ default = ["tracing"]
 
 [dependencies]
 tower-service = "0.2"
-tower-load = { git = "https://github.com/tower-rs/tower.git" }
+tower-load = { git = "https://github.com/tower-rs/tower.git", rev = "793e2e8e" }
 futures = "0.1"
 tokio-executor = "0.1.5"
 tokio-sync = "0.1"
